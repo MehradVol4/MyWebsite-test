@@ -1,0 +1,119 @@
+#Owner-name:hover{
+    color: #007BFF;
+} 
+body {  
+        font-family: Arial, sans-serif;  
+        margin: 0;  
+        padding: 0;  
+        background-color:rgb(52, 52, 52);  
+}  
+
+.container {  
+        width: 80%;  
+        max-width: 1200px;  
+        margin: auto;  
+        overflow: hidden;  
+        background: #fff;  
+        padding: 20px;  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+        border-radius: 8px;  
+}  
+
+header {  
+        background: #007BFF;  
+        color: #ffffff;  
+        padding: 10px 0;  
+        text-align: center;  
+}  
+
+nav {  
+        margin: 10px 0;  
+}  
+
+nav a {  
+        color: #ffffff;  
+        padding: 10px 15px;  
+        text-decoration: none;  
+        margin: 0 5px;  
+        border-radius: 4px;  
+        transition: background 0.3s ease;  
+}  
+
+nav a:hover {  
+        background: #0056b3;  
+}  
+
+main {  
+        display: flex;  
+        justify-content: space-between;  
+        padding: 20px 0;  
+}  
+
+article {  
+        flex: 3;  
+        padding: 20px;  
+}  
+
+aside {  
+        flex: 1;  
+        padding: 20px;  
+        background: #e9ecef;  
+        border-radius: 4px;  
+}  
+
+footer {  
+        text-align: center;  
+        margin-top: 20px;  
+        padding: 10px 0;  
+        background: #007BFF;  
+        color: #fff;  
+        box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.7);
+}  
+
+footer a {  
+        color: #ffffff;  
+        margin: 0 10px;  
+}  
+
+h2, h3, h4 {  
+        margin: 0 0 10px 0;  
+}  
+
+label {  
+        margin-top: 10px;  
+        display: block;  
+}  
+
+input[type="text"], input[type="number"] {  
+        width: calc(100% - 20px);  
+        padding: 10px;  
+        margin: 5px 0;  
+        border: 1px solid #ccc;  
+        border-radius: 4px;  
+}  
+
+button {  
+        padding: 10px 15px;  
+        border: none;  
+        background: #007BFF;  
+        color: white;  
+        border-radius: 4px;  
+        cursor: pointer;  
+        transition: background 0.3s ease;  
+}  
+
+button:hover {  
+        background: #0056b3;  
+}  
+.circle-image{
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%;
+        object-fit: cover;
+}
+.circle-image-2{
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%;
+        object-fit: cover;
+}
